@@ -11,7 +11,7 @@ This documents provides a Docker start-guide for beginners.
 
 # Pre requisites
 
-	- ** Docker 1.7+ ** :collision:
+	- ** Docker 1.7+ ** :scream:
 	- ** Mac OS Sierra **
 
 # Installing Docker on Mac OS
