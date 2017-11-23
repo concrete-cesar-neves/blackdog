@@ -2,19 +2,20 @@
 
 This documents provides a Docker start-guide for beginners.
 
-# Table of Contents :scream:
+## Table of Contents :scream:
 
 * Installing Docker
 * Create a Docker Image using Debian running a Hello World website
 * Create an account on DockerHub and upload your image
 * Use 2 images available on DockerHub to set up an application
 
-# Pre requisites
+## Pre requisites
 
 * Docker 1.7+ **
 * Mac OS Sierra **
 
-# Installing Docker on Mac OS 
+
+### Installing Docker on Mac OS 
 
 Download Docker Community Edition on [Docker website](https://www.docker.com/community-edition)
 1. Just install the Docker.dmg downloaded
@@ -22,7 +23,7 @@ Download Docker Community Edition on [Docker website](https://www.docker.com/com
 
     docker version
 
-# Create a Docker Image using Debian running a Hello World website
+## Create a Docker Image using Debian running a Hello World website
 
 ### Download Debian image to your docker images
 
@@ -57,9 +58,10 @@ On your local system:
 > just access your local Web Browser and hit the url: http://localhost:8282
 
 
-# Create an account on DockerHub and upload your image :cloud:
+## Create an account on DockerHub and upload your image :cloud:
 
 Acess the [DockerHub website](https://hub.docker.com) to create your account
+
 
 ### create your custom Debian Image
 
