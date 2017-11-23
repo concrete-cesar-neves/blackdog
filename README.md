@@ -15,8 +15,8 @@ This documents provides a Docker start-guide for beginners using Mac OS High Sie
 
 ## Pre requisites
 
-* Docker 1.7+ **
-* Mac OS Sierra **
+* Docker 1.7+ 
+* Mac OS High Sierra 
 
 
 
@@ -42,7 +42,7 @@ On terminal of your local system:
 
     docker run -it -p 8282:80 debian /bin/bash
 
-** note: **
+note:
 
 >  8282:80 means that the port 8282 on your local system will run the port 80 from your  container.
 
