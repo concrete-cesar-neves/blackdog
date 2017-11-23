@@ -94,6 +94,54 @@ On your local system:
 
 ## Use 2 images available on DockerHub to set up an application
 
+To conclude this task we`ll use an image of WordPress and another of MySQL. 
+First we need to create a directory on our local system to mantain the data base files:
+
+    mkdir -p /docker/myapp/db_volume
+
+Now we need to create inside the directory /docker/myapp a file named docker-compose.yml
+Edit the file and put into it the following code:
+
+
+   version: '3'
+
+   services:
+   db-wordpress:
+     image: mysql:5.7
+     volumes:
+       - ./db_volume:/var/lib/mysql
+     ports:
+            - "32779:3306"
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+     networks:
+            - net-app
+
+   wordpress:
+     depends_on:
+       - db-wordpress
+     image: wordpress:latest
+     ports:
+       - "8181:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db-wordpress:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+     networks:
+            - net-app
+   volumes:
+    db_volume:
+   networks:
+    net-app:
+        driver: bridge
+
+
+
 
 
 
