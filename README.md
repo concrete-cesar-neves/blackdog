@@ -186,5 +186,4 @@ You will see the WordPress install screen
 
 #### Creator
 
-	César Neves
-## test
+César Neves
