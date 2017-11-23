@@ -1,6 +1,6 @@
 # Learn The Basics About Docker
 
-This documents provides a Docker start-guide for beginners using Mac OS High Sierra.
+This documents provides a Docker start-guide for beginners using __Mac OS High Sierra.__
 
 
 ![DockerLogo](/images/dockerLogo.png)
@@ -22,9 +22,9 @@ This documents provides a Docker start-guide for beginners using Mac OS High Sie
 
 ### Installing Docker
 
-Download Docker Community Edition on [Docker website](https://www.docker.com/community-edition)
-1. Just install the Docker.dmg downloaded
-2.  Access your terminal and check the installation with the command: 
+Download __Docker Community Edition__ on [Docker website](https://www.docker.com/community-edition)
+1. Just install the __Docker.dmg__ downloaded
+2. Access your terminal and check the installation with the command: 
 
     docker version
 
@@ -42,7 +42,7 @@ On your local system:
 
     docker run -it -p 8282:80 debian /bin/bash
 
-note:
+__note:__
 
 >  8282:80 means that the port 8282 on your local system will run the port 80 from your  container.
 
@@ -94,12 +94,12 @@ On your local system:
 
 ## Use 2 images available on DockerHub to set up an application
 
-To conclude this task we`ll use an image of WordPress and another of MySQL. 
+To conclude this task we`ll use an image of __WordPress__ and another of __MySQL.__ 
 First we need to create a directory on our local system to mantain the data base files:
 
     mkdir -p /docker/myapp/db_volume
 
-Now we need to create inside the directory /docker/myapp a file named docker-compose.yml
+Next we need to create inside the directory __/docker/myapp__ a file named __docker-compose.yml__
 
 Edit the file and put into it the following code:
 
@@ -145,19 +145,22 @@ Edit the file and put into it the following code:
 
 ### Running your docker-compose
 
-The __docker-compose.yml__ contain information that Docker consume to automate the proccess of create and app ennironment running two containers: 
+The __docker-compose.yml__ contain information that Docker consume to automate the proccess of create an app environment running two containers: 
 
 * wordpres with a Web Server
 * MySQL to matain databases files of your WordPress Blog
 
+On your local system:
+
+    cd /docker/myapp/
+    docker-compose up -d
 
 
-    /docker/myapp/docker-compose up -d
+
+Wait until the script terminates. As soon as the Docker conclude the installation of the images, run the following command to confirm that the new containers was created 
 
 
-
-Wait util the script terminates. As soon as the Docker conclude the installation of the images, run the following command to confirms that the new containers was created 
-
+On your local system:
 
     docker ps
 
@@ -173,6 +176,10 @@ Probaly you will see the containers:
 Open a Web Browser on your local system and hit the url: http://localhost:8181
 
 You will see the wodpress install screen
+
+
+
+#### END :metal:
 
 
 
