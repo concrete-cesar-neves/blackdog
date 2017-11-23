@@ -2,7 +2,7 @@
 
 This documents provides a Docker start-guide for beginners.
 
-# Table of Contents :collision:
+# Table of Contents :scream:
 
 	- Installing Docker
 	- Create a Docker Image using Debian running a Hello World website
@@ -11,10 +11,10 @@ This documents provides a Docker start-guide for beginners.
 
 # Pre requisites
 
-	- ** Docker 1.7+ ** :green:
-	- ** Mac OS Sierra **
+	** Docker 1.7+ **
+	** Mac OS Sierra **
 
-# Installing Docker on Mac OS
+# Installing Docker on Mac OS 
 
 	* Download Docker Community Edition on [Docker website](https://www.docker.com/community-edition)
 	* Just install the Docker.dmg downloaded
