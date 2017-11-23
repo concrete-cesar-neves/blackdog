@@ -50,7 +50,7 @@ note: 8282:80 means that the port 8282 on your local system will run the port 80
 	- just access your local Web Browser and hit the url: http://localhost:8282
 
 
-# Create an account on DockerHub and upload your image
+# Create an account on DockerHub and upload your image :cloud:
 
 	- acess the DockerHub website (https://hub.docker.com) to create your account
 
