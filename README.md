@@ -1,4 +1,4 @@
-# Learn The Basics About Docker
+# <span style="color:blue">Learn The Basics About Docker</span>
 
 This documents provides a Docker start-guide for beginners using Mac OS High Sierra.
 
