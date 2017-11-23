@@ -103,7 +103,7 @@ Next we need to create inside the directory __/docker/myapp__ a file named __doc
 
 Edit the file and put into it the following code:
 
-
+```yml
     version: '3'
 
     services:
@@ -140,7 +140,7 @@ Edit the file and put into it the following code:
      networks:
       net-app:
          driver: bridge
-
+```
 
 
 ### Running your docker-compose
