@@ -100,6 +100,7 @@ First we need to create a directory on our local system to mantain the data base
     mkdir -p /docker/myapp/db_volume
 
 Now we need to create inside the directory /docker/myapp a file named docker-compose.yml
+
 Edit the file and put into it the following code:
 
 
@@ -141,6 +142,37 @@ Edit the file and put into it the following code:
          driver: bridge
 
 
+
+### Running your docker-compose
+
+The docker-compose.yml contain information that Docker consume to automate the proccess of create and app ennironment running two containers: 
+
+* wordpres with a Web Server
+* MySQL to matain databases files of your WordPress Blog
+
+
+
+    /docker/myapp/docker-compose up -d
+
+
+
+Wait util the script terminates. As soon as the Docker conclude the installation of the images, run the following command to confirms that the new containers was created 
+
+
+    docker ps
+
+
+Probaly you will see the containers:
+
+* wordpress:latest
+* mysql:5.7
+
+
+### Accessing your WordPress Blog
+
+Open a Web Browser on your local system and hit the url: http://localhost:8181
+
+You will see the wodpress install screen
 
 
 
