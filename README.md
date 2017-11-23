@@ -175,7 +175,7 @@ Probaly you will see the containers:
 
 Open a Web Browser on your local system and hit the url: http://localhost:8181
 
-You will see the wodpress install screen
+You will see the WordPress install screen
 
 
 
