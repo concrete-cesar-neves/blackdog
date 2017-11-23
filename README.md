@@ -145,7 +145,7 @@ Edit the file and put into it the following code:
 
 ### Running your docker-compose
 
-The docker-compose.yml contain information that Docker consume to automate the proccess of create and app ennironment running two containers: 
+The __docker-compose.yml__ contain information that Docker consume to automate the proccess of create and app ennironment running two containers: 
 
 * wordpres with a Web Server
 * MySQL to matain databases files of your WordPress Blog
