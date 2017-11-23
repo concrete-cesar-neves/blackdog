@@ -2,6 +2,10 @@
 
 This documents provides a Docker start-guide for beginners using Mac OS High Sierra.
 
+
+![DockerLogo](/images/dockerLogo.png)
+
+
 ## Table of Contents
 
 * Installing Docker
@@ -13,6 +17,7 @@ This documents provides a Docker start-guide for beginners using Mac OS High Sie
 
 * Docker 1.7+ **
 * Mac OS Sierra **
+
 
 
 ### Installing Docker
