@@ -121,24 +121,24 @@ Edit the file and put into it the following code:
      networks:
             - net-app
 
-   wordpress:
-     depends_on:
-       - db-wordpress
-     image: wordpress:latest
-     ports:
-       - "8181:80"
-     restart: always
-     environment:
-       WORDPRESS_DB_HOST: db-wordpress:3306
-       WORDPRESS_DB_USER: wordpress
-       WORDPRESS_DB_PASSWORD: wordpress
-     networks:
+     wordpress:
+      depends_on:
+        - db-wordpress
+      image: wordpress:latest
+      ports:
+        - "8181:80"
+      restart: always
+      environment:
+        WORDPRESS_DB_HOST: db-wordpress:3306
+        WORDPRESS_DB_USER: wordpress
+        WORDPRESS_DB_PASSWORD: wordpress
+       networks:
             - net-app
-   volumes:
-    db_volume:
-   networks:
-    net-app:
-        driver: bridge
+     volumes:
+      db_volume:
+     networks:
+      net-app:
+         driver: bridge
 
 
 
