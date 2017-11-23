@@ -103,10 +103,10 @@ Now we need to create inside the directory /docker/myapp a file named docker-com
 Edit the file and put into it the following code:
 
 
-   version: '3'
+    version: '3'
 
-   services:
-   db-wordpress:
+    services:
+    db-wordpress:
      image: mysql:5.7
      volumes:
        - ./db_volume:/var/lib/mysql
