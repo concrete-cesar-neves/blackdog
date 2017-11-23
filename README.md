@@ -2,7 +2,7 @@
 
 This documents provides a Docker start-guide for beginners.
 
-# Table of Contents
+# Table of Contents :collision:
 
 	- Installing Docker
 	- Create a Docker Image using Debian running a Hello World website
