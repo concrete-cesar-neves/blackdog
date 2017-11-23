@@ -15,7 +15,6 @@ This documents provides a Docker start-guide for beginners using __Mac OS High S
 
 ## Pre requisites
 
-* Docker 1.7+ 
 * Mac OS High Sierra 
 
 
