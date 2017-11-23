@@ -8,8 +8,8 @@ This documents provides a Docker start-guide for beginners using __Mac OS High S
 
 ## Table of Contents
 
-* [Installing Docker](#test))
-* Create a Docker Image using Debian running a Hello World website
+* [Installing Docker](#installing-docker)
+* [Create a Docker Image using Debian running a Hello World website](#create-a-docker-image)
 * Create an account on DockerHub and upload your image
 * [Use 2 images available on DockerHub to set up an application](#use2images)
 * [test](#test)
