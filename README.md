@@ -32,13 +32,13 @@ Download Docker Community Edition on [Docker website](https://www.docker.com/com
 
 ### Download Debian image to your docker images
 
-On terminal of your local system:
+On your local system:
 
     docker pull debian
 
 ### Running a container with your new Docker Image
 
-On terminal of your local system:
+On your local system:
 
     docker run -it -p 8282:80 debian /bin/bash
 
@@ -48,7 +48,7 @@ note:
 
 ### Installing apache on your Debian container
 
-On terminal of your container running Debian:
+On your container running Debian:
 
     apt-get update
 
@@ -70,7 +70,7 @@ Acess the [DockerHub website](https://hub.docker.com) to create your account
 
 ### create your custom Debian Image
 
-On terminal of your local system:
+On your local system:
 
     docker commit <containerID> <name_of_your_custom_image_only_lower_case>.
 
@@ -79,7 +79,7 @@ On terminal of your local system:
 
 ### Upload your imagem to DockerHub
 
-On terminal of your local system:
+On your local system:
 
     docker login (login with your DockerHub login/password)
 
